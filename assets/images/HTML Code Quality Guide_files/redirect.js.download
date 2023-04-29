@@ -1,0 +1,11 @@
+(function() {
+  "use strict";
+  let baseURL = "https://courses.cs.washington.edu/courses/cse154/codequalityguide";
+  let baseSiteURL = baseURL + "/_site";
+
+  if (location.href.indexOf(baseSiteURL) != -1) {
+    let query = location.href.substr(baseSiteURL.length);
+    let newURL = baseURL + query;
+    location.replace(newURL);
+  }
+})();
