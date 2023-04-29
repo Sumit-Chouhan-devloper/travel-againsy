@@ -166,7 +166,9 @@ nav .humberbox span {
     box-shadow: 0px 24px 90px 0px #C0BCA138;
     border: 2px solid white;
 }
-.slider_card:hover{box-shadow: 0px 24px 40px 0px #11111038;
+
+.slider_card:hover {
+    box-shadow: 0px 24px 40px 0px #11111038;
 }
 
 .slick-track {
@@ -255,6 +257,11 @@ nav .humberbox span {
     transform: translate(-12px);
 }
 
+.hero_card {
+    top: 65%;
+    left: -70px;
+}
+
 
 .item1 {
     grid-column: 1/2;
@@ -286,8 +293,16 @@ nav .humberbox span {
     grid-row: 8/9;
 }
 
+.orange_P_specing {
+    letter-spacing: 0.2em;
+}
+
 .orange_line {
     position: relative;
+}
+
+.box_hero_border_r {
+    border-right: 1px solid #EAEAEB;
 }
 
 .orange_line::before {
@@ -308,9 +323,9 @@ nav .humberbox span {
 .input_section_bg {
     background-image: url(../images/input-section-bg.png);
     background-repeat: no-repeat;
-   background-size: cover;
-    
-    border-radius: 0 25px 25px 25px ;
+    background-size: cover;
+
+    border-radius: 0 25px 25px 25px;
 
 }
 
@@ -403,7 +418,7 @@ footer div ul {
 
 .next3:hover path {
     fill: white;
-  
+
 }
 
 .next3:hover {
@@ -507,18 +522,10 @@ footer div ul {
         transition: all 400ms ease-in-out;
     }
 
+
 }
 
-@media (min-width:1200px) {
 
-    .border_r_lg_none {
-        border-right: 3px solid white;
-    }
-
-    .white_s_no_lg {
-        white-space: nowrap;
-    }
-}
 
 @media (min-width:576px) {
     .locaton_card_abs {
@@ -569,26 +576,27 @@ footer div ul {
     }
 
     .prev3 {
-        
+
         height: 50px;
-        padding: 10px 0px 10px 20px ;
+        padding: 10px 0px 10px 20px;
         transition: all 300ms linear;
-      
+
         border: 1px solid #2D3134;
         border-radius: 50px;
         width: 50px;
-        transform: translate(350px, -150px);
+        transform: translate(380px , -70px);
     }
 
     .next3 {
         height: 50px;
-       padding: 10px 0px 10px 18px ;
+        padding: 10px 0px 10px 18px;
         border: 1px solid #2D3134;
         border-radius: 50px;
         width: 50px;
         transition: all 300ms linear;
-        transform: translate(350px, -150px);
+        transform: translate(380px , -70px);
     }
+
 
 
 
@@ -596,7 +604,7 @@ footer div ul {
 
 @media (min-width:768px) {
     .next {
-        right: 24%;
+        right: 20%;
         top: 30%;
         display: block;
         border: 1px solid #2D3134;
@@ -604,6 +612,11 @@ footer div ul {
         height: 50px;
         width: 50px;
         border-radius: 100px;
+    }
+
+    .hero_card {
+        top: 65%;
+        left: 50px;
     }
 
     .next:hover path {
@@ -644,7 +657,6 @@ footer div ul {
     .prev {
         right: 12%;
         top: 30%;
-        display: block;
         border: 1px solid #2D3134;
         padding: 11px 25px 15px 21px;
         height: 50px;
@@ -711,7 +723,7 @@ footer div ul {
     }
 
     .prev2 {
-        right: 12%;
+        right: 14%;
         top: 30%;
         display: block;
         border: 1px solid #2D3134;
@@ -758,7 +770,7 @@ footer div ul {
         border: 1px solid #2D3134;
         border-radius: 50px;
         width: 50px;
-        transform: translate(400px, -120px);
+        transform: translate(340px, -70px);
     }
 
     .next3 {
@@ -770,7 +782,7 @@ footer div ul {
         border-radius: 50px;
         width: 50px;
         transition: all 300ms linear;
-        transform: translate(400px, -120px);
+        transform: translate(340px, -70px);
     }
 
 
@@ -778,6 +790,30 @@ footer div ul {
 }
 
 @media (min-width:992px) {
+
+
+    .next {
+        right: 18%;
+        top: 30%;
+        /* display: block; */
+        border: 1px solid #2D3134;
+        padding: 11px 25px 15px 18px;
+        height: 50px;
+        width: 50px;
+        border-radius: 100px;
+    }
+
+    .prev2 {
+        right: 16%;
+        top: 30%;
+        display: block;
+        border: 1px solid #2D3134;
+        padding: 11px 22px 15px 20px;
+        height: 50px;
+        width: 50px;
+        border-radius: 100px;
+    }
+
     .item1 {
         grid-column: 1/2;
         grid-row: 1/2;
@@ -814,5 +850,17 @@ footer div ul {
     .project_nav {
         width: unset;
         overflow: unset;
+    }
+
+}
+
+@media (min-width:1200px) {
+
+    .border_r_lg_none {
+        border-right: 3px solid white;
+    }
+
+    .white_s_no_lg {
+        white-space: nowrap;
     }
 }

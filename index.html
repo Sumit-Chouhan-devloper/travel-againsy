@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>travelling page</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -23,7 +24,7 @@
 </head>
 
 <body class="body_bg Z-3">
-    
+
     <!-- navbar -->
     <nav class="d-flex justify-content-between container py-3 align-items-center position-sticky top-0 o">
         <div class="d-flex align-items-center h-100">
@@ -60,62 +61,60 @@
         <div class="d-none d-lg-inline-block">
             <button class="nav_btn d-flex align-items-center overflow-hidden"><span
                     class="ff_poppins color_orange  fw-semibold pe-3">Book Now</span>
-                    <span class="pb-2 hidden_path "><svg width="16"
-                        height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <span class="pb-2 hidden_path "><svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M0 8.45744L4.04598 10.2128L13.4253 2.87235L6.06897 11.1702V15L8.82758 11.9681L13.4253 13.5638L16 0L0 8.45744Z"
                             fill="#F66F4D" />
                     </svg>
                 </span>
-                <span class="hover_nav_svg pb-2 "><svg width="16"
-                    height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M0 8.45744L4.04598 10.2128L13.4253 2.87235L6.06897 11.1702V15L8.82758 11.9681L13.4253 13.5638L16 0L0 8.45744Z"
-                        fill="white" />
-                </svg>
-            </span>
+                <span class="hover_nav_svg pb-2 "><svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0 8.45744L4.04598 10.2128L13.4253 2.87235L6.06897 11.1702V15L8.82758 11.9681L13.4253 13.5638L16 0L0 8.45744Z"
+                            fill="white" />
+                    </svg>
+                </span>
             </button>
         </div>
     </nav>
     <!-- hero section -->
-    <div class="hero_s z-1">
-        <div class="container">
-            <div class="row flex-column-reverse flex-xl-row">
-                <div class="col-xl-6">
-                    <h1 class="ff_sen fw-bold fs_3xl mb-0 pt-md-5 pt-3">Discover the Best Lovely Places</h1>
-                    <p class="ff_inter fs_xmd color_lightblack pt-md-3 pt-2">Plan and book your perfect trip with expert
-                        advice,
-                        travel tips, destination information and
-                        inspiration from us.</p>
-                    <div
-                        class="row  hero_box justify-content-sm-between justify-content-center align-items-center mt-md-5 mt-3">
-                        <div class="col-sm-4 col-6 pt-2 pt-sm-0">
-                            <h3 class="ff_inter fw-semibold fs_xmd mb-0">Where</h3>
-                            <p class="ff_inter color_lightgray fs_xxs mb-0 pt-1">Center Point, Lo... <span
-                                    class=" ps-2 ps-sm-4"><img src="./assets/images/location-img.png"
-                                        alt="location-img"></span></p>
-                        </div>
-                        <div class="col-sm-4 col-6 pt-2 pt-sm-0 ">
-                            <h3 class="ff_inter fw-semibold fs_xmd mb-0">Date</h3>
-                            <p class="ff_inter color_lightgray fs_xxs mb-0 pt-1">09th March,2021 <span
-                                    class=" ps-2 ps-sm-4"><img src="./assets/images/calender-img.png"
-                                        alt="calender"></span></p>
-                        </div>
-                        <div class="hero_search_icon col-sm-4 col-12  mt-4 mt-sm-0"><svg width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M10.692 19.839C15.7428 19.839 19.8372 15.7446 19.8372 10.6939C19.8372 5.64314 15.7428 1.54871 10.692 1.54871C5.64131 1.54871 1.54688 5.64314 1.54688 10.6939C1.54688 15.7446 5.64131 19.839 10.692 19.839Z"
-                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M17.1593 17.1609L22.4504 22.452" stroke="white" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </div>
+    <div class="container">
+        <div class="row flex-column-reverse flex-xl-row justify-content-between">
+            <div class="col-xl-6">
+                <h1 class="ff_sen fw-bold fs_3xl mb-0 pt-md-5 pt-4">Discover the Best Lovely Places</h1>
+                <p class="ff_inter fs_xmd color_lightblack pt-md-3 pt-3">Plan and book your perfect trip with expert
+                    advice,
+                    travel tips, destination information and
+                    inspiration from us.</p>
+                <div
+                    class="row  hero_box justify-content-sm-between justify-content-center align-items-center mt-md-5 mt-4">
+                    <div class="col-sm-4 col-6 pt-2 pt-sm-0 box_hero_border_r ps-md-4">
+                        <h3 class="ff_inter fw-semibold fs_xmd mb-0">Where</h3>
+                        <p class="ff_inter color_lightgray fs_xxs mb-0 pt-1">Center Point, Lo... <span
+                                class=" ps-2 ps-sm-4"><img src="./assets/images/location-img.png"
+                                    alt="location-img"></span></p>
                     </div>
-
+                    <div class="col-sm-4 col-6 pt-2 pt-sm-0 box_hero_border_r">
+                        <h3 class="ff_inter fw-semibold fs_xmd mb-0">Date</h3>
+                        <p class="ff_inter color_lightgray fs_xxs mb-0 pt-1">09th March,2021 <span
+                                class=" ps-2 ps-sm-4"><img src="./assets/images/calender-img.png" alt="calender"></span>
+                        </p>
+                    </div>
+                    <div class="hero_search_icon col-sm-4 col-12  mt-4 mt-sm-0 me-md-3"><svg width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.692 19.839C15.7428 19.839 19.8372 15.7446 19.8372 10.6939C19.8372 5.64314 15.7428 1.54871 10.692 1.54871C5.64131 1.54871 1.54688 5.64314 1.54688 10.6939C1.54688 15.7446 5.64131 19.839 10.692 19.839Z"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M17.1593 17.1609L22.4504 22.452" stroke="white" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
                 </div>
-                <div class="col-xl-6 ps-lg-4">
-                    <div class=" d-flex"><img class="w-100" src="./assets/images/young_man_hero.png" alt="man-img"></div>
 
+            </div>
+            <div class="col-xl-6  d-flex justify-content-xl-end justify-content-center position-relative">
+                <div class="ps-lg-5"><img class="w-100" src="./assets/images/young_man_hero.png" alt="man-img">
                 </div>
 
             </div>
@@ -157,10 +156,12 @@
                     <div class="d-flex justify-content-center ">
                         <div class="position-relative"> <img class="cursor_pointer" src="./assets/images/circle-1.png"
                                 alt="img">
+
                             <div class="circle_img_abs d-flex align-items-center justify-content-center h-100 w-100">
                                 <p class="text-white ff_inter fw-semibold fs_xmd">Visite</p>
                             </div>
                         </div>
+
                     </div>
                     <div class="d-flex justify-content-center ">
                         <div class="position-relative"> <img class="cursor_pointer" src="./assets/images/circle-2.png"
@@ -228,9 +229,11 @@
                     </div>
                     <div class="col-xl-6">
                         <div class="box">
-                            <p class="ff_inter color_orange fw-semibold fs_md pt-4 pt-md-0">Our Experience</p>
+                            <p class="ff_inter color_orange fw-semibold fs_md pt-4 pt-md-0 orange_P_specing">Our
+                                Experience</p>
                             <h2 class="ff_inter fw-semibold fs_xxl">Our Stories Have Adventures</h2>
-                            <p class="ff_inter color_lightblack">We are experienced in bringing adventures to stay their
+                            <p class="ff_inter color_lightblack">We are experienced in bringing adventures to stay
+                                their
                                 journey, with all outdoor destinations in the world as our specialties. Start your
                                 adventure now! Nature has already called you!</p>
                             <div class="row pt-lg-5 pt-4">
@@ -259,8 +262,8 @@
             </div>
         </section>
         <!-- overflow slider -->
-        <section class="my-lg-5 my-3 overflow-hidden overflow_slider_bg ">
-            <div class="container overflow-x-hidden">
+        <section class="my-lg-5 my-3  overflow_slider_bg overflow-hidden">
+            <div class="container ">
                 <div class="row z-1 py-4">
                     <div class="d-flex justify-content-between position-relative">
                         <div class="col-md-5">
@@ -500,7 +503,7 @@
         <section class="mt-5 mt-lg-0 pb-4">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 d-flex justify-content-center justify-content-lg-start">
+                    <div class="col-lg-6 d-flex justify-content-center justify-content-lg-start pb-lg-5">
                         <div><img class="w-100" src="./assets/images/men_with_camera.png" alt="men-img"></div>
                     </div>
                     <div class="col-lg-6 py-3">
@@ -510,7 +513,8 @@
                                 said about us:</h2>
                             <div class="slider3">
                                 <div class="card_bg p-4 w-100  d-flex flex-column">
-                                    <p class="ff_inter color_lightblack fs_xxmd">Salty helped me a lot in finding the
+                                    <p class="ff_inter color_lightblack fs_xxmd">Salty helped me a lot in finding
+                                        the
                                         best
                                         place for our first outdoor adventure trip.
                                         They responded very quickly and gave me a detailed account of the place—its
@@ -533,7 +537,8 @@
                                     </div>
                                 </div>
                                 <div class="card_bg p-4 w-100  d-flex flex-column">
-                                    <p class="ff_inter color_lightblack fs_xxmd">Lorem ipsum dolor sit amet consectetur
+                                    <p class="ff_inter color_lightblack fs_xxmd">Lorem ipsum dolor sit amet
+                                        consectetur
                                         adipisicing elit. Dolorem nihil atque quidem delectus modi eveniet quas
                                         consectetur, nulla eos animi molestiae totam aut explicabo magni
 
@@ -546,7 +551,8 @@
                                                     alt="star"><img src="./assets/images/yellow_star.png"
                                                     alt="star"></span>
                                             <h4 class="ff_inter fw-medium fs_xmd pt-3 mb-0">Sumit chouhan</h4>
-                                            <p class="ff_inter fs_xxs color_lightblack pt-2 mb-0">Frontend devloper</p>
+                                            <p class="ff_inter fs_xxs color_lightblack pt-2 mb-0">Frontend devloper
+                                            </p>
                                         </div>
 
                                     </div>
@@ -554,16 +560,16 @@
                             </div>
                             <div class="d-none d-sm-block">
                                 <div class="d-flex gap-2">
-                                    <div class="next3 d-none d-sm-block"><svg width="10" height="16" viewBox="0 0 10 16" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
+                                    <div class="next3 d-none d-sm-block"><svg width="10" height="16" viewBox="0 0 10 16"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M3.53516 8.00008L9.72266 14.1876L7.95516 15.9551L0.000158052 8.00008L7.95516 0.04508L9.72266 1.81258L3.53516 8.00008Z"
                                                 fill="
                             #2D3134" />
                                         </svg>
                                     </div>
-                                    <div class="prev3 d-none d-sm-block"><svg width="10" height="16" viewBox="0 0 10 16" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
+                                    <div class="prev3 d-none d-sm-block"><svg width="10" height="16" viewBox="0 0 10 16"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M6.46484 7.99992L0.277344 1.81242L2.04484 0.0449219L9.99984 7.99992L2.04484 15.9549L0.277344 14.1874L6.46484 7.99992Z"
                                                 fill="
@@ -577,7 +583,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </section>
         <!-- input section -->
         <section class="pb-md-5 pb-4">
@@ -588,12 +594,15 @@
                         <p class="ff_inter color_lightblack  mw_400 pt-sm-3 pt-1 pb-sm-4 pb-2">Reciev latest news,
                             update, and many other things every week. </p>
 
-                        <div class="input_box d-flex justify-content-between align-items-center pe-2 py-2 mb-4"><span
-                                class="ps-3"><input type="text" placeholder="Enter Your email address"></span><span
-                                class=" cursor_pointer input_logo_icon"><svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 8.45744L4.04598 10.2128L13.4253 2.87235L6.06897 11.1702V15L8.82758 11.9681L13.4253 13.5638L16 0L0 8.45744Z" fill="white"/>
-                                    </svg>
-                                    </span>
+                        <div class="input_box d-flex justify-content-between align-items-center pe-2 py-2 mb-4">
+                            <span class="ps-3"><input type="text" placeholder="Enter Your email address"></span><span
+                                class=" cursor_pointer input_logo_icon"><svg width="16" height="15" viewBox="0 0 16 15"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0 8.45744L4.04598 10.2128L13.4253 2.87235L6.06897 11.1702V15L8.82758 11.9681L13.4253 13.5638L16 0L0 8.45744Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
                         </div>
                     </div>
 
@@ -691,8 +700,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+
         // for storing element in variable
         const myNav = document.getElementById("click_nav");
         // for adding class on element
