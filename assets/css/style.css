@@ -311,14 +311,11 @@ nav .humberbox span {
     height: 8px;
     border-radius: 10px;
     top: -5%;
-    width: 0;
+    width: 70%;
     transition: all 300ms linear;
     background: linear-gradient(159.99deg, #FFD482 13.35%, #FFBE82 118.92%);
 }
 
-.orange_line:hover::before {
-    width: 70%;
-}
 
 .input_section_bg {
     background-image: url(../images/input-section-bg.png);
@@ -487,6 +484,8 @@ footer div ul {
 .input_logo_icon:hover {
     background-color: #2D3134;
 }
+.input_w{width: 200px !important;
+}
 
 
 @media (max-width:992px) {
@@ -512,6 +511,7 @@ footer div ul {
 
 
     }
+    
 
     .nav_bar li {
         padding-top: 20px;
@@ -532,6 +532,8 @@ footer div ul {
         top: 18%;
         display: unset !important;
         left: -1%;
+    }
+    .input_w{width: 300px !important;
     }
 
     .mw_400 {
@@ -802,7 +804,8 @@ footer div ul {
         width: 50px;
         border-radius: 100px;
     }
-
+    .input_w{width: 400px !important;
+    }
     .prev2 {
         right: 16%;
         top: 30%;
