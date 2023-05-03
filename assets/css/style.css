@@ -505,11 +505,11 @@ footer div ul {
         justify-content: center;
         position: fixed;
         width: 100%;
-        margin-top: 35px;
+        margin-top: 20px;
         left: 100%;
         line-height: 30px;
         height: 100%;
-        z-index: 99;
+        z-index: 99 !important;
         background-color: #FAF8ED;
         padding-left: 0 !important;
         pointer-events: none;
@@ -520,7 +520,8 @@ footer div ul {
     
 
     .nav_bar li {
-        padding-top: 20px;
+        margin-top: 10px;
+        cursor: pointer;
     }
 
     .show {
