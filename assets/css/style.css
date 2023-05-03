@@ -471,6 +471,10 @@ footer div ul {
     transition: all 300ms linear;
     background-color: #2d31346c;
 }
+.slick-dots li button:before{color: #F66F4D !important;
+font-size: 10px;}
+.slick-dots li.slick-active button:before{color: rgba(255, 0, 0, 0.63) !important;
+font-size: 13px;}
 
 .input_logo_icon {
     background-color: #F66F4D;
